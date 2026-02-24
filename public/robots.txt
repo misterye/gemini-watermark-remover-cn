@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gwr.binchat.top/sitemap.xml

@@ -1,0 +1,29 @@
+{
+  "name": "gemini-watermark-remover-cn",
+  "description": "Automatically removes watermarks from Gemini AI generated images",
+  "version": "1.0.0",
+  "author": "misterye",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misterye/gemini-watermark-remover-cn.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node build.js",
+    "build": "node build.js --prod",
+    "serve": "npx serve dist",
+    "test:local": "node local-server.js"
+  },
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "jszip": "^3.10.1",
+    "medium-zoom": "^1.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "esbuild": "^0.24.0",
+    "express": "^5.2.1"
+  },
+  "packageManager": "pnpm@10.11.0"
+}
